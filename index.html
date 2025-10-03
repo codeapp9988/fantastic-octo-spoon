@@ -589,7 +589,7 @@
                 }
                 
                 valueElement.textContent = displayValue;
-                bar.style.width = barWidth;
+bar.style.width = (value / 100) + 'px'; // try scaling by 100
             });
         }
 
